@@ -10,6 +10,7 @@ import Page5 from './components/Page5/Page5';
 import Footer from './components/footer/footer.jsx';
 import Page3 from './components/page3/page3';
 import Page6 from './components/Page6/Page6';
+import ClientSection from './components/Clientssection/ClientSection';
 
 function App() {
   Aos.init();
@@ -22,6 +23,7 @@ function App() {
     <Page4/>
     <Page5/>
     <Page6/>
+    <ClientSection/>
     <Footer/>
     </>
   );
