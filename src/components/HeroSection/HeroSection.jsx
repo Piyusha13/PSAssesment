@@ -9,7 +9,7 @@ const HeroSection = () => {
         <section>
             <Container fluid className='m-0 p-0 position-relative'>
                 <Image src={bgImg} className='herosectionimg overflow-hidden' alt="herosectionbg" ></Image>
-                <div className='position-absolute px-4' style={{top:'15%',left:'1%' , width:'55%'}}>
+                <div data-aos="fade-up" className='position-absolute px-4' style={{top:'15%',left:'1%' , width:'55%'}}>
                     <div className='fs-1 fw-bold'>
                         More revenue for your hotel Automate your room rates <span className='text-black bg-white fw-bold py-1 px-2' style={{borderRadius:'3px'}} >120$|</span>
                     </div>
