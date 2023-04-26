@@ -1,8 +1,7 @@
 import React from 'react'
-import { Button, Container, Image } from 'react-bootstrap'
+import {  Container, Image } from 'react-bootstrap'
 import page2img from "../../assets/images/page2img.png"
 
-import bgImg from '../../assets/images/heroSectionBg.png'
 const Page2 = () => {
   return (
     <div>

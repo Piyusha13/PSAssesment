@@ -19,19 +19,19 @@ const Footer = () => {
         </div>
 
        <div>
-          <a href='' className='me-4  text-white fs-4 fw-semibold'  >
+          <a href='#a' className='me-4  text-white fs-4 fw-semibold'  >
             Featurs
           </a>
-          <a href='' className='me-4 px-3 text-white fs-4 fw-semibold' style={{borderLeft:'2px solid white', borderRight:'2px solid white'}}>
+          <a href='#b' className='me-4 px-3 text-white fs-4 fw-semibold' style={{borderLeft:'2px solid white', borderRight:'2px solid white'}}>
             Pricing
           </a>
-          <a href='' className='me-4  text-white fs-4 fw-semibold'>
+          <a href='#c' className='me-4  text-white fs-4 fw-semibold'>
             Blog
           </a>
-          <a href='' className='me-4 px-3 text-white fs-4 fw-semibold' style={{borderLeft:'2px solid white', borderRight:'2px solid white'}}>
+          <a href='#d' className='me-4 px-3 text-white fs-4 fw-semibold' style={{borderLeft:'2px solid white', borderRight:'2px solid white'}}>
             Privacy Policy
           </a>
-          <a href='' className='me-4  text-white fs-4 fw-semibold'>
+          <a href='#f' className='me-4  text-white fs-4 fw-semibold'>
             Contact Us
           </a>
         </div>
