@@ -4,12 +4,13 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
+import "./Page6.style.css"
 
 const Page6 = () => {
     return (
         <div style={{ height: '100vh' }}>
             <section>
-                <Container fluid className='m-0 pt-4'>
+                <Container fluid className='m-0 pt-4 page6'>
                     <div className='text-center my-5' data-aos="fade-up">
                         <p className='fs-4 fw-bold'>WHY PEOPLE BELIEVE IN US</p>
                         <p className='fs-5 fw-bold'>We Understant Hotels, Like No One Does</p>

@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper';
 import blogImg from "../../assets/images/blog1.png"
+import "./BlogSection.style.css"
 
 const BlogSection = () => {
   return (
@@ -16,7 +17,7 @@ const BlogSection = () => {
                         <p className='fs-6 fw-semibold mb-0 pb-0'> amet consectetur, adipisicing elit. Eligendi impedit officia nostrum id adipisci?</p>
                         <p className='fs-6 fw-semibold pt-0 mt-0'>  Eligendi impedit officia nostrum id adipisci?</p>
                     </div>
-                    <div className='px-0' data-aos="fade-down">
+                    <div className='px-0 blog position-relative' data-aos="fade-down">
                         <Swiper
                         modules={[Navigation]}
                             spaceBetween={50}

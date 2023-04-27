@@ -1,0 +1,15 @@
+.page6 .swiper-button-next:after,.page6 .swiper-button-prev:after{
+    background-color: black !important;
+    color: #50adb5 !important;
+    padding: 0.6rem;
+    font-size: 0.8rem !important;
+    border-radius: 50%;
+  }
+  .page6 .swiper-button-next:after{
+    
+    transform: translateX(40%);
+  }
+  .page6 .swiper-button-prev:after{
+    
+    transform: translateX(-40%);
+  }
