@@ -8,7 +8,7 @@ const Page3 = () => {
         <div style={{ height: '100vh', background: '#e8f0f2' }}>
             <section  >
                 <Container fluid className='m-0 pt-4' >
-                    <div data-aos="fade-up" className='text-center' ><span className='fw-bold text-black fs-1'>Introducing</span> <span style={{ color: '#50adb5', borderBottom: '4px solid black' }} className='fs-1 fw-bold ' >PriceUp?</span></div>
+                    <div data-aos="fade-up" className='text-center' ><span className='fw-bold text-black' style={{fontSize:"3vw"}}>Introducing</span> <span style={{ color: '#50adb5', borderBottom: '4px solid black' }} className='fs-1 fw-bold ' >PriceUp?</span></div>
                     <div data-aos="fade-down" className='fw-semibold text-center my-5'>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, dolores. Lorem, ipsum dolor.</p>
                         <p>Lorem ipsum dolor sit amet consectetur.</p>

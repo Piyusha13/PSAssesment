@@ -22,7 +22,7 @@ const Page2 = () => {
                         <p>lorem.</p>
                     </div> 
                     </div>
-                    <div className='col' data-aos="flip-left">
+                    <div className='col ' data-aos="flip-left">
                         <div className='p-4 position-relative ' style={{background:'#50adb5', height:'80vh', borderRadius:'5px',marginTop:'1rem'}}>
                             <Image className='position-absolute ' style={{height:'75%',width:'100%',  top:'12%',right:'15%'}} src={page2img} alt='page2img' />
                         </div>
