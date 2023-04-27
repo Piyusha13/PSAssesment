@@ -12,16 +12,16 @@ const HeroSection = () => {
                 <Image  style={{zIndex:"9",height:'100vh' ,clipPath:'polygon(100% 0, 60% 0, 43% 30%, 45% 78%, 100% 100%, 100% 100%)'}}  src={bgImg} className='herosectionimg overflow-hidden' alt="herosectionbg" />
                 </div>
                 <div data-aos="fade-up" className='position-absolute px-4' style={{top:'15%',left:'1%' , width:'55%'}}>
-                    <div className='fs-1 fw-bold'>
+                    <div style={{fontSize:"3vw"}} className=' fw-bold'>
                         More revenue for your hotel Automate your room rates <span className='text-black bg-white fw-bold py-1 px-2' style={{borderRadius:'3px'}} >120$|</span>
                     </div>
-                    <div className='fw-semibold fs-5 my-3'>
+                    <div className='fw-semibold my-3' style={{fontSize:"1.5vw"}}>
                         <p>Our intelligent machine learning algorithms</p>
                         <p>optimally adjust your room rates.</p>
                         <p>Optimize your pricing strategy based on</p>
                         <p>occupancy, events and current demand.</p>
                     </div>
-                    <Button style={{background:'#50adb5',padding:'5rem' ,border:'none', borderRadius:'4px'}} className='text-white my-3 py-2 fs-4 mx-5 fw-semibold' >Get Started</Button>
+                    <Button style={{background:'#50adb5',padding:'5vw' ,border:'none', borderRadius:'4px', fontSize:'2vw'}} className='text-white my-3 py-2 mx-5 fw-semibold' >Get Started</Button>
                 </div>
                 
             </Container>
