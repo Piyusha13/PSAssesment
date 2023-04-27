@@ -9,8 +9,8 @@ const Page2 = () => {
             <Container fluid className='m-0 p-0' style={{height:'100vh'}}>
                 <div className='row bg-white py-5 my-5'>
                     <div className='col px-5' data-aos="fade-down">
-                      <div ><span className='fw-bold text-black fs-4'>What is</span> <span style={{color:'#50adb5',borderBottom:'4px solid black'}} className='fs-1 fw-bold ' >PriceUp?</span></div>
-                      <div className='fw-semibold fs-5 my-5'>
+                      <div ><span className='fw-bold text-black' style={{fontSize:'1.8vw'}} >What is</span> <span style={{color:'#50adb5',borderBottom:'4px solid black',fontSize:"3vw"}} className=' fw-bold ' >PriceUp?</span></div>
+                      <div className='fw-semibold my-5' style={{fontSize:"1.5vw"}}>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
@@ -24,7 +24,7 @@ const Page2 = () => {
                     </div>
                     <div className='col' data-aos="flip-left">
                         <div className='p-4 position-relative ' style={{background:'#50adb5', height:'80vh', borderRadius:'5px',marginTop:'1rem'}}>
-                            <Image className='position-absolute' style={{top:'12%',right:'15%'}} src={page2img} alt='page2img' ></Image>
+                            <Image className='position-absolute ' style={{height:'75%',width:'100%',  top:'12%',right:'15%'}} src={page2img} alt='page2img' />
                         </div>
                     </div>
                 </div>
